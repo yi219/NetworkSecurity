@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_weight="1.2"
+        android:gravity="bottom"
+        android:text="비밀번호 설정"
+        android:textAlignment="center"
+        android:textSize="45dp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/inputinfo"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="비밀번호를 입력해주세요"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="23dp" />
+    <TextView
+        android:id="@+id/inputinfo2"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="23dp" />
+
+    <LinearLayout
+        android:id="@+id/passcodes"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/p1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPassword|number"
+            android:maxLength="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:singleLine="true"></EditText>
+
+        <EditText
+            android:id="@+id/p2"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPassword|number"
+            android:maxLength="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:singleLine="true"></EditText>
+
+        <EditText
+            android:id="@+id/p3"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPassword|number"
+            android:maxLength="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:singleLine="true"></EditText>
+
+        <EditText
+            android:id="@+id/p4"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:inputType="textPassword|number"
+            android:maxLength="1"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:singleLine="true"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/dial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/n1"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/n2"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/n3"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/n4"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/n5"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/n6"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/n7"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/n8"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/n9"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+                <ImageView/>
+
+
+                <Button
+                    android:id="@+id/n0"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/erasen"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:text="\u003C" />
+
+
+
+
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

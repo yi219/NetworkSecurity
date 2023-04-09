@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/clickItem"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/diarydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20220517"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+
+
+    <TextView
+        android:id="@+id/viewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="제목"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/viewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="내용"
+        android:textSize="18dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/CustomRatingBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="3"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
